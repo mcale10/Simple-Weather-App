@@ -26,6 +26,8 @@ nodemon server.js
 
 Your app will now be accessible at localhost:3000
 
+App also accessible on https://shielded-mountain-97777.herokuapp.com/
+
 ## Author
 
 Marko Caleta
