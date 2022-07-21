@@ -1,0 +1,143 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    font-family: 'Gotham Rounded', sans-serif;
+}
+
+body {
+    background-image: url('https://source.unsplash.com/2800x1400/?landscape');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container-main {
+    max-width: 75%;
+    width: 1200px;
+    background-color: #7c7c7c2b;
+    box-shadow: 0 0 15px white;
+    border-radius: 50px;
+}
+
+.content {
+    padding: 40px;
+    margin-top: 50px;
+    color: #fff;
+}
+
+.header {
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.icon-container {
+    position: relative;
+    top: 70px;
+    padding: 20px;
+    background-color: white;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+
+.general-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.weather-status {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.weather-location {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+.detail-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 0;
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.detail.bordered {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.detail .title {
+    font-size: 2rem;
+    flex-grow: 1;
+    font-weight: bold;
+    color: white;
+}
+
+.detail .value {
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+.city-search-container {
+    display: flex;
+    justify-content: center;
+}
+
+.city-search {
+    margin-top: 40px;
+    font-size: 2rem;
+    outline: none;
+    border: 1px solid #777;
+    border-radius: 20px;
+    padding: 10px 15px;
+    width: 70%;
+}
+
+.pac-item {
+    font-size: 2rem;
+    padding: 10px 10px;
+}
+
+.pac-icon {
+    display: none;
+}
+
+.pac-item-query {
+    font-size: 2rem;
+    padding-right: 14px;
+}
+
+.openweathermap-logo {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: #333;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.icon-type {
+    color: #fff;
+}
