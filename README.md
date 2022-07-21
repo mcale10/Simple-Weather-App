@@ -13,7 +13,7 @@ Add to .env file
 
 # index.html
 - change API_KEY in line 11 to your Google API key
-- <script defer type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=<strong>API_KEY<strong>&libraries=places"></script>
+- <script defer type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key="+<strong>API_KEY<strong>+"&libraries=places"></script>
 
 ## Run server
 
