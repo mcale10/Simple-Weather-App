@@ -19,7 +19,7 @@ Add to .env file
 
 ```bash
 # run app
-nodem app.js
+nodemon server.js
 ```
 
 ## Open app
